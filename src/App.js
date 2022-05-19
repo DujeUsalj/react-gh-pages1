@@ -1,10 +1,10 @@
-import classes from "./App.module.css";
 import * as ROUTES from "./routes/routes";
-import { Route, BrowserRouter as Router } from "react-router-dom ";
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import PageHistory from "./pages/history/history";
 function App() {
   return (
     <Router>
-      <Route exact path={ROUTES.HISTORY} />
+      <PageHistory />
     </Router>
   );
 }

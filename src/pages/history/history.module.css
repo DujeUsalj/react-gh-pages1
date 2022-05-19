@@ -1,19 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+.App {
+  background-image: url("../../images/UEFAbg123.jpeg");
+  height: 100vh;
+  position: relative;
+}
 .History {
-  margin-top: 40px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 200px;
+  padding-top: 200px;
+  margin-right: 200px;
 }
 .DisplayColumn {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3.4fr 1fr;
+  column-gap: 40px;
 }
 .DivVideo {
-  height: 800px;
-  width: 600px;
-  background-color: black;
+  height: 600px;
+  width: 100%;
+}
+
+.DivVide iframe {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .DivStats {
-  background-color: aqua;
-  width: 200px;
-  height: 300px;
+  background-color: white;
+  width: 100%;
+  height: 380px;
+  border: 1px solid rgb(225, 219, 219);
+  margin-bottom: 30px;
+}
+.DivStatsDisplay {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0px;
+}
+.DisplayColumn1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.DisplayColumn2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(225, 219, 219);
+  height: 60px;
+  text-align: center;
+}
+.DisplayColumn2 img {
+  height: 50px;
+  width: 50px;
+  left: 0px;
+  margin-left: 0;
+}
+.Text1 {
+  margin-top: 4px;
+  font-family: "Archivo", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: hsl(210, 87%, 37%);
+  margin-bottom: 0px;
+}
+.Text5 {
+  margin-top: 4px;
+  font-family: "Archivo", sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  color: hsl(210, 87%, 37%);
+  margin-bottom: 30px;
+}
+.Text2 {
+  margin-top: 30px;
+  font-family: "Archivo", sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  color: hsl(210, 87%, 37%);
+}
+.Text3 {
+  color: hsl(210, 87%, 37%);
+  font-size: 24px;
+  font-weight: 450;
+  font-family: "Archivo", sans-serif;
+  margin-top: 16px;
+}
+.Text4 {
+  color: hsl(210, 87%, 37%);
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 450;
+  font-family: "Archivo", sans-serif;
+}
+.DisplayColumn11 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.DisplayWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 210px;
+  overflow-y: scroll;
+}
+.DisplayWrapper1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 270px;
+  overflow-y: scroll;
 }
