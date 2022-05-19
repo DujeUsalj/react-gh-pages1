@@ -1,17 +1,38 @@
 {
   "files": {
-    "main.css": "/react-gh-pages1/static/css/main.ad6b1dd6.css",
-    "main.js": "/react-gh-pages1/static/js/main.27f8c50f.js",
+    "main.css": "/react-gh-pages1/static/css/main.8151144d.css",
+    "main.js": "/react-gh-pages1/static/js/main.d0e6ef98.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages1/static/js/787.28cb0dcd.chunk.js",
+    "static/media/liverpool-fc-4.svg": "/react-gh-pages1/static/media/liverpool-fc-4.f1f60e78bf36a08ad1d9d2bb5a96be58.svg",
     "static/media/UEFAbg123.jpeg": "/react-gh-pages1/static/media/UEFAbg123.721a096465a5128c0bbd.jpeg",
+    "static/media/Inzaghi.png": "/react-gh-pages1/static/media/Inzaghi.7f2d06a28c19fc93d235.png",
+    "static/media/ashraf-zamrani_lionelmessi.gif": "/react-gh-pages1/static/media/ashraf-zamrani_lionelmessi.8cf5a98248c9afbf6088.gif",
+    "static/media/Benzema.png": "/react-gh-pages1/static/media/Benzema.1f504307f109ee9e1b35.png",
+    "static/media/Lewandowski.png": "/react-gh-pages1/static/media/Lewandowski.a2cb18d5fd3ed6258ca7.png",
+    "static/media/Shevchenko.png": "/react-gh-pages1/static/media/Shevchenko.14274c68a37ef38b516e.png",
+    "static/media/CRISTIANO.png": "/react-gh-pages1/static/media/CRISTIANO.2655a014e165071dd60e.png",
+    "static/media/benfica.svg": "/react-gh-pages1/static/media/benfica.398d4901d073c5bd9998b9faebff5ca6.svg",
+    "static/media/Henry.png": "/react-gh-pages1/static/media/Henry.1c86d6f61bf038da1a59.png",
+    "static/media/Nistelrooy.png": "/react-gh-pages1/static/media/Nistelrooy.7f730e648a3d2980f4b9.png",
     "static/media/real-madrid-c-f.svg": "/react-gh-pages1/static/media/real-madrid-c-f.e87032cf4ddf942c1f6b9fc821fb406f.svg",
+    "static/media/porto.svg": "/react-gh-pages1/static/media/porto.238e0d24cd208491b25acb8ce28863e8.svg",
+    "static/media/chelsea-fc-2.svg": "/react-gh-pages1/static/media/chelsea-fc-2.22ad631b90d3405b18032d93b701d2ba.svg",
+    "static/media/manchester-united.svg": "/react-gh-pages1/static/media/manchester-united.dc689fbc006edf8219bdf82f6312498c.svg",
+    "static/media/Muller.webp": "/react-gh-pages1/static/media/Muller.173cd59968d0e7c34cf9.webp",
+    "static/media/ajax-4.svg": "/react-gh-pages1/static/media/ajax-4.71d63d867172c84e6d989dded3a53aba.svg",
+    "static/media/Gonzalez.png": "/react-gh-pages1/static/media/Gonzalez.916481f20f4af178f618.png",
+    "static/media/bayern.svg": "/react-gh-pages1/static/media/bayern.a2200d140673d4336046210e2e39d0d3.svg",
+    "static/media/fc-barcelona.svg": "/react-gh-pages1/static/media/fc-barcelona.31d0f2650f146cb07e87c9110e5e329f.svg",
+    "static/media/inter-milan-2021.svg": "/react-gh-pages1/static/media/inter-milan-2021.102eb9bd4f0b9d548318804cda1d1d9d.svg",
+    "static/media/ac-milan.svg": "/react-gh-pages1/static/media/ac-milan.7b6731d7a5e0f6ea84fffa406edefffb.svg",
+    "static/media/juventus-fc-2017-2.svg": "/react-gh-pages1/static/media/juventus-fc-2017-2.27395f055c59daf103d1d18df7402145.svg",
     "index.html": "/react-gh-pages1/index.html",
-    "main.ad6b1dd6.css.map": "/react-gh-pages1/static/css/main.ad6b1dd6.css.map",
-    "main.27f8c50f.js.map": "/react-gh-pages1/static/js/main.27f8c50f.js.map",
+    "main.8151144d.css.map": "/react-gh-pages1/static/css/main.8151144d.css.map",
+    "main.d0e6ef98.js.map": "/react-gh-pages1/static/js/main.d0e6ef98.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-gh-pages1/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad6b1dd6.css",
-    "static/js/main.27f8c50f.js"
+    "static/css/main.8151144d.css",
+    "static/js/main.d0e6ef98.js"
   ]
 }
