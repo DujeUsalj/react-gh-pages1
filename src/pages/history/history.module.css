@@ -1,0 +1,19 @@
+.History {
+  margin-top: 40px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.DisplayColumn {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.DivVideo {
+  height: 800px;
+  width: 600px;
+  background-color: black;
+}
+.DivStats {
+  background-color: aqua;
+  width: 200px;
+  height: 300px;
+}
