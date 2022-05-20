@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages1/static/css/main.8151144d.css",
-    "main.js": "/react-gh-pages1/static/js/main.d0e6ef98.js",
+    "main.css": "/react-gh-pages1/static/css/main.a882ee2c.css",
+    "main.js": "/react-gh-pages1/static/js/main.754cd0c1.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages1/static/js/787.28cb0dcd.chunk.js",
     "static/media/liverpool-fc-4.svg": "/react-gh-pages1/static/media/liverpool-fc-4.f1f60e78bf36a08ad1d9d2bb5a96be58.svg",
     "static/media/UEFAbg123.jpeg": "/react-gh-pages1/static/media/UEFAbg123.721a096465a5128c0bbd.jpeg",
@@ -27,12 +27,12 @@
     "static/media/ac-milan.svg": "/react-gh-pages1/static/media/ac-milan.7b6731d7a5e0f6ea84fffa406edefffb.svg",
     "static/media/juventus-fc-2017-2.svg": "/react-gh-pages1/static/media/juventus-fc-2017-2.27395f055c59daf103d1d18df7402145.svg",
     "index.html": "/react-gh-pages1/index.html",
-    "main.8151144d.css.map": "/react-gh-pages1/static/css/main.8151144d.css.map",
-    "main.d0e6ef98.js.map": "/react-gh-pages1/static/js/main.d0e6ef98.js.map",
+    "main.a882ee2c.css.map": "/react-gh-pages1/static/css/main.a882ee2c.css.map",
+    "main.754cd0c1.js.map": "/react-gh-pages1/static/js/main.754cd0c1.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-gh-pages1/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8151144d.css",
-    "static/js/main.d0e6ef98.js"
+    "static/css/main.a882ee2c.css",
+    "static/js/main.754cd0c1.js"
   ]
 }
