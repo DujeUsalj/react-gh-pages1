@@ -24,17 +24,28 @@ import Muller from "../../clubs/Muller.webp";
 import Henry from "../../clubs/Henry.png";
 import FInzaghi from "../../clubs/Inzaghi.png";
 import Ibrahimovic from "../../clubs/Ibrahimovic.png";
+import Navbar from "../../navbar/navbar";
 function history() {
   return (
     <div className={classes.App}>
+      <Navbar />
       <div className={classes.History}>
         <div className={classes.DisplayColumn}>
-          <iframe
-            className={classes.DivVideo}
-            src="https://www.youtube.com/embed/KcQjBpehDAY?"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <div className={classes.VideoText}>
+            <iframe
+              className={classes.DivVideo}
+              src="https://www.youtube.com/embed/KcQjBpehDAY?"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <div className={classes.DisplayColumn3}>
+              <img className={classes.RonaldoImg} src={Ronaldo} />
+              <p className={classes.RonaldoText}>
+                " Without Football, my life is worth nothing "
+              </p>
+            </div>
+          </div>
+
           <div className={classes.DivStatsDisplay}>
             <div className={classes.DivStats}>
               <div className={classes.DisplayColumn11}>

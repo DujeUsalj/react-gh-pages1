@@ -1,0 +1,23 @@
+.Navbar {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+
+  position: fixed;
+  top: 0;
+}
+.Wrapper {
+  padding-right: 200px;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Text {
+  margin-top: 22px;
+  color: white;
+  font-size: 30px;
+}
+.Text:hover {
+}
