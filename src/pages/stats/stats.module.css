@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+.App {
+  background-color: rgb(248, 248, 248);
+  height: 140vh;
+  position: relative;
+}
+.Stats {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-image: url("./stats-bg-hp-l.webp");
+  padding-top: 200px;
+  height: 50vh;
+}
+.divColumn {
+  padding-left: 200px;
+  padding-right: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.divColumnBox {
+  display: grid;
+  grid-template-rows: 0.2fr 1fr 0.5fr 0.6fr;
+  background-color: hwb(232 11% 34%);
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+.divColumnBox1 {
+  display: grid;
+  grid-template-rows: 0.2fr 1.4fr 0.5fr;
+  background-color: hwb(232 11% 34%);
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+.displayFlex {
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.displayFlex1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.displayFlex1 img {
+  width: 70px;
+  height: 70px;
+}
+.Text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  font-weight: 600;
+}
+.TextMatch {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.TextMatch2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+}
+.TextMatch3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.TextMatch4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.TextMatch5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 4px;
+}
+.TextMatch6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+  transform: rotate(90deg);
+}
+.Title {
+  padding-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 44px;
+  font-weight: 580;
+  color: white;
+}
+.Played {
+  margin-top: -4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: gainsboro;
+}
+
+.Line {
+  width: 100%;
+  height: 8px;
+  background-color: hsl(160, 99%, 66%);
+  margin-top: 30px;
+  border-radius: 4px;
+}
+.display3 {
+  margin-top: -30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Column {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 0px;
+}
+.display8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.Height1 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 32px;
+}
+.Height2 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.Height3 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 26px;
+}
+.Height4 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 102px;
+}
+.Height5 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 24px;
+}
+.Height6 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+.Height7 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+.Height8 {
+  background-color: hsl(160, 99%, 66%);
+  width: 4px;
+  height: 100%;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+.Column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  /* width: 40px; */
+}
+.ClubStat {
+  padding-top: 60px;
+  padding-left: 200px;
+  font-family: "Archivo", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: hsl(210, 87%, 37%);
+  margin-bottom: 0px;
+}
+.DisplayColumn4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  column-gap: 30px;
+}
+@media (max-width: 1820px) {
+  .DisplayColumn4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .App {
+    height: 200vh;
+  }
+}
+.DisplayRow6 {
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+.DisplayFlex2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.DisplayFlex27 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.DisplayFlex27 img {
+  width: 50px;
+  height: 50px;
+}
+.DisplayFlex22 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.DisplayFlexColumn {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SmalltextNumber {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #d0cccc;
+}
+.DisplayFlex2 img {
+  width: 50px;
+  height: 50px;
+}
+
+.Text10 {
+  margin-left: 0px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: white;
+  margin-left: 20px;
+}
+.Text101 {
+  margin-left: 0px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: hsl(236, 47%, 49%);
+  margin-left: 20px;
+}
+.Text11 {
+  margin-left: 0px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: white;
+  margin-right: 20px;
+}
+.Text110 {
+  margin-left: 0px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: hsl(236, 47%, 49%);
+  margin-right: 20px;
+}
+.Text12 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: white;
+}
+.SmalltextNumber1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #d0cccc;
+}

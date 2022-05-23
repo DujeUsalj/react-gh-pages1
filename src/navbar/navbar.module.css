@@ -18,6 +18,17 @@
   margin-top: 22px;
   color: white;
   font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .Text:hover {
+  color: hsl(189, 93%, 51%);
+  animation: animate 4s ease-in-out infinite;
+}
+
+.Link {
+  color: white !important;
+  text-decoration: none !important;
+  width: 40px !important;
 }

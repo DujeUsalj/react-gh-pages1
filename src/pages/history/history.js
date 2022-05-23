@@ -25,6 +25,7 @@ import Henry from "../../clubs/Henry.png";
 import FInzaghi from "../../clubs/Inzaghi.png";
 import Ibrahimovic from "../../clubs/Ibrahimovic.png";
 import Navbar from "../../navbar/navbar";
+import { NavLink } from "react-router-dom";
 function history() {
   return (
     <div className={classes.App}>

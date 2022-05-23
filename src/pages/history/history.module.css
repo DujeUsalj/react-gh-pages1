@@ -18,7 +18,7 @@
 }
 .DisplayColumn {
   display: grid;
-  grid-template-columns: 3.4fr 1fr;
+  grid-template-columns: 3fr 1fr;
   column-gap: 40px;
 }
 .DivVideo {
@@ -158,7 +158,7 @@
     margin-top: 130px;
   }
   .App {
-    height: 142vh;
+    height: 150vh;
   }
 }
 @media (max-width: 1200px) {
@@ -166,7 +166,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .App {
-    height: 182vh;
+    height: 192vh;
   }
   .RonaldoText {
     padding-top: 28px;
