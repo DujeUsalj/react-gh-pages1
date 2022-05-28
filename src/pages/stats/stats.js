@@ -17,6 +17,23 @@ import Salzburg from "../../clubs/redbull.svg";
 import Atletico from "../../clubs/athletic-club-madrid-85137.svg";
 
 import RealMadrid from "../../clubs/real-madrid-c-f.svg";
+import Benzema from "../../clubs/Benzema.png";
+import Lewandowski from "../../clubs/Lewandowski.png";
+import Haller from "./players/Halller.png";
+import Salah from "./players/Salah.jpeg";
+import Mahrez from "./players/Mahrez.jpeg";
+import BrunoF from "./players/BrunoF.png";
+import Vinicius from "./players/Vinicius.jpeg";
+import Sane from "./players/Sane.webp";
+import Antony from "./players/Antony.png";
+import Modric from "./players/Modric.png";
+import Erkohin from "./players/Erkohin.webp";
+import EricG from "./players/EricGarcia.png";
+import Ulreich from "./players/Ulreich.png";
+import Rugani from "./players/Rugani.png";
+import Mbappe from "./players/Mbappe.png";
+import JTimber from "./players/Jtimber.png";
+
 function stats() {
   return (
     <div className={classes.App}>
@@ -312,178 +329,178 @@ function stats() {
               <div className={classes.DisplayFlex2}>
                 <div className={classes.DisplayFlex22}>
                   <p className={classes.SmalltextNumber}>1</p>
-                  <img src={Bayern} />
-                  <p className={classes.Text10}>Bayern</p>
+                  <img src={Benzema} />
+                  <p className={classes.Text10}>Benzema</p>
                 </div>
-                <p className={classes.Text11}>31</p>
+                <p className={classes.Text11}>15</p>
               </div>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>2</p>
-                <img src={Liverpool} />
-                <p className={classes.Text101}>Liverpool</p>
+                <img src={Lewandowski} />
+                <p className={classes.Text101}>Lewandowski</p>
               </div>
-              <p className={classes.Text110}>30</p>
+              <p className={classes.Text110}>13</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>3</p>
-                <img src={ManCiry} />
-                <p className={classes.Text101}>Man City</p>
+                <img src={Haller} />
+                <p className={classes.Text101}>Haller</p>
               </div>
-              <p className={classes.Text110}>29</p>
+              <p className={classes.Text110}>11</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>4</p>
-                <img src={RealMadrid} />
-                <p className={classes.Text101}>Real Madrid</p>
+                <img src={Salah} />
+                <p className={classes.Text101}>Salah</p>
               </div>
-              <p className={classes.Text110}>28</p>
+              <p className={classes.Text110}>8</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>5</p>
-                <img src={Ajax} />
-                <p className={classes.Text101}>Ajax</p>
+                <img src={Mahrez} />
+                <p className={classes.Text101}>Mahrez</p>
               </div>
-              <p className={classes.Text110}>22</p>
+              <p className={classes.Text110}>7</p>
             </div>
           </div>
           <div className={classes.DisplayRow6}>
             <div className={classes.DisplayFlexColumn}>
-              <p className={classes.Text12}>Possesion (%)</p>
+              <p className={classes.Text12}>Assists</p>
               <div className={classes.DisplayFlex2}>
                 <div className={classes.DisplayFlex22}>
                   <p className={classes.SmalltextNumber}>1</p>
-                  <img src={Bayern} />
-                  <p className={classes.Text10}>Bayern</p>
+                  <img src={BrunoF} />
+                  <p className={classes.Text10}>Bruno F.</p>
                 </div>
-                <p className={classes.Text11}>60.1</p>
+                <p className={classes.Text11}>7</p>
               </div>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>2</p>
-                <img src={Liverpool} />
-                <p className={classes.Text101}>Liverpool</p>
+                <img src={Vinicius} />
+                <p className={classes.Text101}>Vinicius J.</p>
               </div>
-              <p className={classes.Text110}>60.1</p>
+              <p className={classes.Text110}>6</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>3</p>
-                <img src={ManCiry} />
-                <p className={classes.Text101}>Man City</p>
+                <img src={Sane} />
+                <p className={classes.Text101}>Sane</p>
               </div>
-              <p className={classes.Text110}>59.8</p>
+              <p className={classes.Text110}>6</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>4</p>
-                <img src={Ajax} />
-                <p className={classes.Text101}>Ajax</p>
+                <img src={Antony} />
+                <p className={classes.Text101}>Antony</p>
               </div>
-              <p className={classes.Text110}>59.5</p>
+              <p className={classes.Text110}>5</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>5</p>
-                <img src={Chelsea} />
-                <p className={classes.Text101}>Chelsea</p>
+                <img src={Modric} />
+                <p className={classes.Text101}>Modric</p>
               </div>
-              <p className={classes.Text110}>59.1</p>
+              <p className={classes.Text110}>4</p>
             </div>
           </div>
           <div className={classes.DisplayRow6}>
             <div className={classes.DisplayFlexColumn}>
-              <p className={classes.Text12}>Passing (%)</p>
+              <p className={classes.Text12}>On target</p>
               <div className={classes.DisplayFlex2}>
                 <div className={classes.DisplayFlex22}>
                   <p className={classes.SmalltextNumber}>1</p>
-                  <img src={Shakhtar} />
-                  <p className={classes.Text10}>Shakhtar</p>
+                  <img src={Benzema} />
+                  <p className={classes.Text10}>Benzema</p>
                 </div>
-                <p className={classes.Text11}>90.3</p>
+                <p className={classes.Text11}>23</p>
               </div>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>2</p>
-                <img src={ManCiry} />
-                <p className={classes.Text101}>Man City</p>
+                <img src={Lewandowski} />
+                <p className={classes.Text101}>Lewandowski</p>
               </div>
-              <p className={classes.Text110}>90.2</p>
+              <p className={classes.Text110}>19</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>3</p>
-                <img src={Paris} />
-                <p className={classes.Text101}>PSG</p>
+                <img src={Mahrez} />
+                <p className={classes.Text101}>Mahrez</p>
               </div>
-              <p className={classes.Text110}>90</p>
+              <p className={classes.Text110}>18</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>4</p>
-                <img src={Chelsea} />
-                <p className={classes.Text101}>Chelsea</p>
+                <img src={Mbappe} />
+                <p className={classes.Text101}>Mbappe</p>
               </div>
-              <p className={classes.Text110}>89.1</p>
+              <p className={classes.Text110}>16</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>5</p>
-                <img src={Bayern} />
-                <p className={classes.Text101}>Bayern</p>
+                <img src={Salah} />
+                <p className={classes.Text101}>Salah</p>
               </div>
-              <p className={classes.Text110}>88.8</p>
+              <p className={classes.Text110}>16</p>
             </div>
           </div>
           <div className={classes.DisplayRow6}>
             <div className={classes.DisplayFlexColumn}>
-              <p className={classes.Text12}>Tackles</p>
+              <p className={classes.Text12}>Passing accuracy (%)</p>
               <div className={classes.DisplayFlex2}>
                 <div className={classes.DisplayFlex22}>
                   <p className={classes.SmalltextNumber}>1</p>
-                  <img src={RealMadrid} />
-                  <p className={classes.Text10}>Real Madrid</p>
+                  <img src={Erkohin} />
+                  <p className={classes.Text10}>Erkohin</p>
                 </div>
-                <p className={classes.Text11}>31</p>
+                <p className={classes.Text11}>98</p>
               </div>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>2</p>
-                <img src={Benfica} />
-                <p className={classes.Text101}>Benfica</p>
+                <img src={EricG} />
+                <p className={classes.Text101}>Eric G.</p>
               </div>
-              <p className={classes.Text110}>131</p>
+              <p className={classes.Text110}>97.5</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>3</p>
-                <img src={Atletico} />
-                <p className={classes.Text101}>Atletico</p>
+                <img src={Ulreich} />
+                <p className={classes.Text101}>Ulreich</p>
               </div>
-              <p className={classes.Text110}>126</p>
+              <p className={classes.Text110}>97</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>4</p>
-                <img src={Sporting} />
-                <p className={classes.Text101}>Sporting</p>
+                <img src={Rugani} />
+                <p className={classes.Text101}>Rugani</p>
               </div>
-              <p className={classes.Text110}>119</p>
+              <p className={classes.Text110}>96.8</p>
             </div>
             <div className={classes.DisplayFlex27}>
               <div className={classes.DisplayFlex22}>
                 <p className={classes.SmalltextNumber1}>5</p>
-                <img src={Salzburg} />
-                <p className={classes.Text101}>Salzburg</p>
+                <img src={JTimber} />
+                <p className={classes.Text101}>J. Timber</p>
               </div>
-              <p className={classes.Text110}>116</p>
+              <p className={classes.Text110}>95.8</p>
             </div>
           </div>
         </div>

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
+.App {
+  background-color: rgb(248, 248, 248);
+  height: 180vh;
+  position: relative;
+  background-color: hwb(260 1% 62%);
+}
+.Column {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.Text1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+}
+.Text2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin-top: 50px;
+}
+.Text3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+.Text4 {
+  margin-top: -16px;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(132, 132, 132);
+}
+.Column8 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+  justify-items: center;
+  row-gap: 40px;
+}
+.ColumnFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ColumnFlex img {
+  width: 50px;
+  height: 50px;
+  background-color: hwb(260 1% 62%);
+  background-image: hwb(260 1% 62%);
+  color: hwb(260 1% 62%);
+  background-position: relative;
+}
+@media (max-width: 1400px) {
+  .Column8 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .App {
+    height: 220vh;
+  }
+}

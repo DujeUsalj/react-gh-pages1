@@ -1,34 +1,22 @@
 import React from "react";
 import classes from "./navbar.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 function navbar() {
   return (
     <div className={classes.Navbar}>
       <div className={classes.Wrapper}>
-        <a
-          className={classes.Text}
-          href="http://localhost:3000/react-gh-pages1/Clubs"
-        >
+        <Link className={classes.Text} to="/react-gh-pages1/Clubs">
           Clubs
-        </a>
-        <a
-          className={classes.Text}
-          href="http://localhost:3000/react-gh-pages1/Groups"
-        >
+        </Link>
+        <Link className={classes.Text} to="/react-gh-pages1/Groups">
           Groups
-        </a>
-        <a
-          className={classes.Text}
-          href="http://localhost:3000/react-gh-pages1/Stats"
-        >
+        </Link>
+        <Link className={classes.Text} to="/react-gh-pages1/Stats">
           Stats
-        </a>
-        <a
-          className={classes.Text}
-          href="http://localhost:3000/react-gh-pages1/"
-        >
+        </Link>
+        <Link className={classes.Text} to="/react-gh-pages1">
           History
-        </a>
+        </Link>
       </div>
     </div>
   );
