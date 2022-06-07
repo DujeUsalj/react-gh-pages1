@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gh-pages1/static/css/main.ff9838b2.css",
-    "main.js": "/react-gh-pages1/static/js/main.763505f5.js",
+    "main.css": "/react-gh-pages1/static/css/main.37764b38.css",
+    "main.js": "/react-gh-pages1/static/js/main.cf311d96.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-gh-pages1/static/js/787.28cb0dcd.chunk.js",
     "static/media/liverpool-fc-4.svg": "/react-gh-pages1/static/media/liverpool-fc-4.f1f60e78bf36a08ad1d9d2bb5a96be58.svg",
     "static/media/UEFAbg123.jpeg": "/react-gh-pages1/static/media/UEFAbg123.721a096465a5128c0bbd.jpeg",
@@ -16,9 +16,11 @@
     "static/media/Shevchenko.png": "/react-gh-pages1/static/media/Shevchenko.14274c68a37ef38b516e.png",
     "static/media/Mbappe.png": "/react-gh-pages1/static/media/Mbappe.9bfac2b887328f848525.png",
     "static/media/Ulreich.png": "/react-gh-pages1/static/media/Ulreich.d9e2e9d4ebe8df607a57.png",
+    "static/media/format123.webp": "/react-gh-pages1/static/media/format123.08e83155eee48726d599.webp",
     "static/media/CRISTIANO.png": "/react-gh-pages1/static/media/CRISTIANO.2655a014e165071dd60e.png",
     "static/media/BrunoF.png": "/react-gh-pages1/static/media/BrunoF.0434083ddd83fbc84120.png",
     "static/media/manchester-city-fc.svg": "/react-gh-pages1/static/media/manchester-city-fc.60964ce1669b8678ec1b778a619b849e.svg",
+    "static/media/ger123.jpeg": "/react-gh-pages1/static/media/ger123.672b676155f4a36b31af.jpeg",
     "static/media/stats-bg-hp-l.webp": "/react-gh-pages1/static/media/stats-bg-hp-l.a3cc6affd2efe1c82a2a.webp",
     "static/media/benfica.svg": "/react-gh-pages1/static/media/benfica.398d4901d073c5bd9998b9faebff5ca6.svg",
     "static/media/Halller.png": "/react-gh-pages1/static/media/Halller.2d07046628850fdc06a7.png",
@@ -39,6 +41,7 @@
     "static/media/Muller.webp": "/react-gh-pages1/static/media/Muller.173cd59968d0e7c34cf9.webp",
     "static/media/Jtimber.png": "/react-gh-pages1/static/media/Jtimber.ca25c260d7c6967ff351.png",
     "static/media/redbull.svg": "/react-gh-pages1/static/media/redbull.1547a90c39f089d8cea2d18c15dd2e51.svg",
+    "static/media/rM12.jpeg": "/react-gh-pages1/static/media/rM12.4275583a2833a3e3d103.jpeg",
     "static/media/ajax-4.svg": "/react-gh-pages1/static/media/ajax-4.71d63d867172c84e6d989dded3a53aba.svg",
     "static/media/Gonzalez.png": "/react-gh-pages1/static/media/Gonzalez.916481f20f4af178f618.png",
     "static/media/psg-3.svg": "/react-gh-pages1/static/media/psg-3.626d0ebbabdca1dfc07b8f2d3a5b7fb8.svg",
@@ -63,12 +66,12 @@
     "static/media/juventus-fc-2017-2.svg": "/react-gh-pages1/static/media/juventus-fc-2017-2.27395f055c59daf103d1d18df7402145.svg",
     "static/media/vfl-wolfsburg.svg": "/react-gh-pages1/static/media/vfl-wolfsburg.a82e56ee0b54656deaa976b6862a57a6.svg",
     "index.html": "/react-gh-pages1/index.html",
-    "main.ff9838b2.css.map": "/react-gh-pages1/static/css/main.ff9838b2.css.map",
-    "main.763505f5.js.map": "/react-gh-pages1/static/js/main.763505f5.js.map",
+    "main.37764b38.css.map": "/react-gh-pages1/static/css/main.37764b38.css.map",
+    "main.cf311d96.js.map": "/react-gh-pages1/static/js/main.cf311d96.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-gh-pages1/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9838b2.css",
-    "static/js/main.763505f5.js"
+    "static/css/main.37764b38.css",
+    "static/js/main.cf311d96.js"
   ]
 }
